@@ -1,0 +1,62 @@
+:root{
+    --primary: #8219f2;
+    --secondary: #070606;
+    --ternary: #000000;
+    --light: #000000;
+    --dark: #fafafa;
+    --darkBlue: #8219f2;
+    --darkText: #f8f9ff;
+    --pure: #ffffff;
+    --deep: #ff1ce1;
+    --code: #51124b;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-evenly;
+}
+
+.justify-center{
+    justify-content: center;
+}
+.flex-direction{
+    flex-direction: column;
+}
+.primary-btn{
+    background: var(--primary);
+    color: var(--secondary);
+    border-color: var(--primary);
+}
+
+.primary-btn:hover{
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.secondary-btn{
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.secondary-btn:hover{
+    background: var(--primary);
+    color: var(--secondary);
+}
+
